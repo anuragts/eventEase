@@ -1,0 +1,46 @@
+[{
+    "id": "chatcmpl-6xjNUOLtkhu0Q0DS9Y2aiWK8iW1u2",
+    "object": "chat.completion",
+    "created": 1679693804,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 57,
+        "completion_tokens": 17,
+        "total_tokens": 74
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "The 2020 World Series was played at Globe Life Field in Arlington, Texas."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+},
+
+
+
+
+{
+    "id": "chatcmpl-6xjf66CnO3oYzOv9JLFFeqTS7R2Qk",
+    "object": "chat.completion",
+    "created": 1679694896,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 514,
+        "completion_tokens": 403,
+        "total_tokens": 917
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "Congratulations on your wedding! Let's get started with the plan for your special day.\n\nVenue:\n- Look for a venue that can accommodate 200 guests and is within your budget. You can consider booking a banquet hall or wedding resort. This can cost around $5000-$8000.\n- Decorate the venue with flowers, lights, and draping, which can cost around $2000-$3000.\n\nFood and Beverages:\n- Hire a caterer who can provide vegetarian and non-vegetarian options for your guests. This can cost around $6000-$8000.\n- Consider serving alcohol at the wedding reception. You can allocate a budget of $2000-$3000 for this.\n\nWedding Attire:\n- Allocate a budget of $2000-$3000 for the bride's wedding dress and jewelry.\n- Allocate a budget of $1000-$1500 for the groom's wedding attire.\n\nPhotography and Videography:\n- Hire a professional photographer and videographer to capture the special moments of your wedding. You can allocate a budget of $3000-$4000 for this.\n- Invest in a photo booth or selfie station for your guests. This can cost around $500-$1000.\n\nEntertainment and Music:\n- Book a DJ or a live band to provide music and entertainment for your guests. You can allocate a budget of $2000-$3000 for this.\n\nMiscellaneous:\n- Allocate a budget of $1000-$1500 for wedding favors and gifts for your guests.\n- Design and print your wedding invitations, which can cost around $500-$1000.\n- Allocate a small budget for unforeseen expenses, such as transportation or emergency repairs.\n\nTotal Estimated Cost: $20,000\n\nWith this plan, you will be able to organize a fabulous wedding within your budget. Remember to prioritize the most important aspects of the wedding, such as the venue, food, and wedding dress, and allocate your budget accordingly. \n\nGood luck with organizing your wedding!"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}]
