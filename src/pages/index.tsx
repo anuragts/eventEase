@@ -13,6 +13,7 @@ export default function Home() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setResponse("");
     setLoading(true);
     try {
       const res = await fetch("/api/get", {
