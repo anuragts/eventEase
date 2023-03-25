@@ -8,7 +8,7 @@ export default function Home() {
   const [size, setSize] = useState<string>("");
   const [type, setType] = useState<string>("");
   const [extra, setExtra] = useState<string>("");
-  const [response, setResponse] = useState<string>("");
+  const [response, setResponse] = useState<string>("Nothing to show here!");
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
