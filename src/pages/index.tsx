@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Loading from "./components/Loading";
 import Head from "next/head";
-
+import Link from "next/link";
 export default function Home() {
   const [budget, setBudget] = useState<number>(0);
   const [location, setLocation] = useState<string>("");
@@ -128,6 +128,12 @@ export default function Home() {
             >
             Generate Plan
           </button>
+          <div className="flex justify-center my-10">
+            <p>Made By - </p>
+            <div className="text-blue-500 font-semibold">
+          <Link href="https://twitter.com/theanuragdev"> @theanuragdev</Link>
+            </div>
+          </div>
         </form>
       </div>
       <div className="bg-[#191825] md:w-1/2 flex justify-center items-center">
