@@ -2,11 +2,10 @@ import { useState } from "react";
 import Loading from "./components/Loading";
 import Head from "next/head";
 import Link from "next/link";
-import { useAuth } from "@clerk/nextjs";
+import { useAuth, useUser } from "@clerk/nextjs";
 import { SignInButton } from "@clerk/nextjs";
 export default function Home() {
-  const { getToken, isLoaded, isSignedIn } = useAuth();
-
+const user = useUser() ;
   const [budget, setBudget] = useState<number>(0);
   const [location, setLocation] = useState<string>("");
   const [size, setSize] = useState<string>("");
@@ -36,7 +35,7 @@ export default function Home() {
     }
   };
 
-   if(isSignedIn) {
+   if(user.isSignedIn) {
     return (
       <>
         <Head>
